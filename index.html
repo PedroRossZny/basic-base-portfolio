@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Base</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/73139c5dad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Fundo Interativo -->
+    <div id="fundo-interativo"></div>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="glow-fundo"></div>
+        <div class="loader-elementos">
+            <div class="spinner-externo"></div>
+            <div class="spinner"></div>
+            <img src="images/default-avatar.jpg" alt="Carregando..." class="loader-foto">
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header>
+        
+        <!-- Menu de Navegação -->
+        <nav id="menu">
+            <ul>
+                <li><a href="#tecnologias" class="link"><i class="fa-solid fa-laptop-code"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-screwdriver-wrench"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#" class="link" id="botao-lingua"><i class="fa-solid fa-language"></i></a></li>
+                <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="animacao-surgir">
+
+        <!-- Ficha -->
+        <section id="ficha">
+
+            <!-- Card da Ficha -->
+            <article>
+                <img src="images/default-avatar.jpg" alt="Foto de Perfil" class="perfil">
+                <h1>XXXXXXXXXXXXXXXXXXXXXXXXXX</h1>
+                <p data-i18n="perfil-descricao">
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                </p>
+
+                <!-- Links das Redes Sociais -->
+                <div class="social">
+                    <a href="#" target="_blank" rel="nofollow"><i class="fa-solid fa-circle-question"></i></a>
+                    <a href="#" target="_blank" rel="nofollow"><i class="fa-solid fa-circle-question"></i></a>
+                    <a href="#" target="_blank" rel="nofollow"><i class="fa-solid fa-circle-question"></i></a>
+                    <a href="#" target="_blank" rel="nofollow"><i class="fa-solid fa-circle-question"></i></a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Detalhes Principais -->
+        <section id="detalhes">
+
+            <!-- Tecnologias -->
+            <article id="tecnologias">
+                <h2>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span data-i18n="titulo-tecnologias">Tecnologias</span>
+                    <span class="dica-filtro" data-i18n="dica-filtro">(Clique em uma para filtrar os projetos)</span>
+                </h2>
+
+                <!-- Grupo das Tecnologias -->
+                <div class="tech-container">
+
+                    <!-- Frontend -->
+                    <div class="tech-group">
+                        <h3>Frontend</h3>
+                        <div class="tech-botoes">
+                            <div class="tech-btn" data-filter="aaaaa"><i class="fa-solid fa-a"></i> aaaaa</div>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="tech-group">
+                        <h3>Backend</h3>
+                        <div class="tech-botoes">
+                            <div class="tech-btn" data-filter="bbbbb"><i class="fa-solid fa-b"></i> bbbbb</div>
+                        </div>
+                    </div>
+
+                    <!-- Extras -->
+                    <div class="tech-group">
+                        <h3>Extras</h3>
+                        <div class="tech-botoes">
+                            <div class="tech-btn" data-filter="ccccc"><i class="fa-solid fa-c"></i> ccccc</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+          </section>
+     </main>
+</body>
+</html>
