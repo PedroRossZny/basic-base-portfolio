@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Base</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/73139c5dad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
     <!-- Fundo Interativo -->
@@ -99,7 +101,145 @@
                     </div>
                 </div>
             </article>
-          </section>
-     </main>
+
+            <!-- Projetos -->
+            <article id="projetos">
+                <h2>
+                    <span class="titulo-projetos">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span data-i18n="titulo-projetos">Projetos</span>
+                        <span id="filtro-ativo"></span>
+                    </span>
+
+                    <button id="limpar-filtro" data-i18n-title="limpar_filtro_tooltip" title="Limpar Filtro">
+                        <i class="fa-solid fa-filter-circle-xmark"></i>
+                    </button>
+                </h2>
+
+                <!-- PROJETO 1 -->
+                <div id="projeto-container">
+                    <div class="projeto" data-tech="">
+                        <div class="projeto-controle">
+                            <button class="btn-expandir" data-i18n-title="expandir_recolher_btn" title="Expandir/Recolher">
+                                <i class="fa-solid fa-expand"></i>
+                            </button>
+                        </div>
+
+                        <div class="projeto-imagem-wrapper">
+                            <img src="images/projects/base-project-image.png" alt="Imagem Base Projeto" class="foto-projeto">
+                        </div>
+
+                        <div class="projeto-resumo-container">
+                            <img src="images/icons/project-icon.png" alt="Icon Base Projeto" class="icone-projeto">
+                            <div class="textos-iniciais">
+                                <h3 class="titulo" data-i18n="titulo-projeto-1">Projeto 1</h3>
+                                <p class="resumo" data-i18n="resumo-projeto-1">
+                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="projeto-especificacoes">
+                            <h4 data-i18n="T1-Projeto1">XXXXXXXXXXXXXXX</h4>
+                            <p data-i18n="P1-Projeto1">
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJETO 2 -->
+                <div id="projeto-container">
+                    <div class="projeto" data-tech="">
+                        <div class="projeto-controle">
+                            <button class="btn-expandir" data-i18n-title="expandir_recolher_btn" title="Expandir/Recolher">
+                                <i class="fa-solid fa-expand"></i>
+                            </button>
+                        </div>
+
+                        <div class="projeto-imagem-wrapper">
+                            <img src="images/projects/base-project-image.png" alt="Imagem Base Projeto" class="foto-projeto">
+                        </div>
+
+                        <div class="projeto-resumo-container">
+                            <img src="images/icons/project-icon.png" alt="Icon Base Projeto" class="icone-projeto">
+                            <div class="textos-iniciais">
+                                <h3 class="titulo" data-i18n="titulo-projeto-2">Projeto 2</h3>
+                                <p class="resumo" data-i18n="resumo-projeto-2">
+                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="projeto-especificacoes">
+                            <h4 data-i18n="T1-Projeto2">XXXXXXXXXXXXXXX</h4>
+                            <p data-i18n="P1-Projeto2">
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJETO 3 -->
+                <div id="projeto-container">
+                    <div class="projeto" data-tech="">
+                        <div class="projeto-controle">
+                            <button class="btn-expandir" data-i18n-title="expandir_recolher_btn" title="Expandir/Recolher">
+                                <i class="fa-solid fa-expand"></i>
+                            </button>
+                        </div>
+
+                        <div class="projeto-imagem-wrapper">
+                            <img src="images/projects/base-project-image.png" alt="Imagem Base Projeto" class="foto-projeto">
+                        </div>
+
+                        <div class="projeto-resumo-container">
+                            <img src="images/icons/project-icon.png" alt="Icon Base Projeto" class="icone-projeto">
+                            <div class="textos-iniciais">
+                                <h3 class="titulo" data-i18n="titulo-projeto-3">Projeto 3</h3>
+                                <p class="resumo" data-i18n="resumo-projeto-3">
+                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="projeto-especificacoes">
+                            <h4 data-i18n="T1-Projeto3">XXXXXXXXXXXXXXX</h4>
+                            <p data-i18n="P1-Projeto3">
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Formação -->
+            <article id="formacao">
+                <h2>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span data-i18n="formacao">Formação</span>
+                </h2>
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">XXXX - XXXX</p>
+                        <h3 class="instituicao">XXXXXXX</h3>
+                        <p class="titulacao" data-i18n="curso">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape-discreto">
+        <p>
+            <span data-i18n="por">Desenvolvido por </span>
+            <a href="#" target="_blank" rel="nofollow">XXXXXXXXX</a>
+             &copy; XXXX
+        </p>
+    </footer>
+
+    <script src="scripts/translations.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
